@@ -1,0 +1,26 @@
+{
+	"name": "SrcTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DataWarehouse",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Value",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Name",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "SrcTable"
+		}
+	}
+}
