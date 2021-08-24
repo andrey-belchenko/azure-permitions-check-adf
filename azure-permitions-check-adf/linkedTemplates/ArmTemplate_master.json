@@ -4,20 +4,20 @@
 	"parameters": {
 		"factoryName": {
 			"type": "string",
-			"metadata": "Data Factory name",
+			"metadata": "Имя фабрики данных",
 			"defaultValue": "azure-permitions-check-adf"
 		},
 		"DataWarehouse_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'DataWarehouse'"
+			"metadata": "Защищенная строка для \"connectionString\" из \"DataWarehouse\""
 		},
 		"containerUri": {
 			"type": "string",
-			"metadata": "URI to storage account containing linked ARM templates"
+			"metadata": "URI для учетной записи хранения со связанными шаблонами ARM"
 		},
 		"containerSasToken": {
 			"type": "string",
-			"metadata": "Sas token to storage account containing linked ARM templates"
+			"metadata": "Маркер SAS для учетной записи хранения со связанными шаблонами ARM"
 		}
 	},
 	"variables": {

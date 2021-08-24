@@ -4,12 +4,12 @@
 	"parameters": {
 		"factoryName": {
 			"type": "string",
-			"metadata": "Data Factory name",
+			"metadata": "Имя фабрики данных",
 			"defaultValue": "azure-permitions-check-adf"
 		},
 		"DataWarehouse_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'DataWarehouse'"
+			"metadata": "Защищенная строка для \"connectionString\" из \"DataWarehouse\""
 		}
 	},
 	"variables": {
@@ -23,7 +23,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "Copy data5",
+						"name": "Copy data3",
 						"type": "Copy",
 						"dependsOn": [],
 						"policy": {
